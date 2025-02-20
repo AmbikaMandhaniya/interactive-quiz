@@ -1,0 +1,119 @@
+.results-container {
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 30px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .results-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .results-header h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  
+  .result-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .score-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .score-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 8px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .score-text {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .score-total {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .score-percentage {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .result-message {
+    margin-bottom: 30px;
+  }
+  
+  .result-message h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .result-message p {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .result-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .result-actions button {
+    padding: 12px 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .results-container {
+      padding: 20px;
+    }
+    
+    .results-header h2 {
+      font-size: 1.6rem;
+    }
+    
+    .score-circle {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .score-text {
+      font-size: 2.5rem;
+    }
+    
+    .score-percentage {
+      font-size: 2rem;
+    }
+    
+    .result-actions {
+      flex-direction: column;
+    }
+  }

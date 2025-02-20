@@ -1,0 +1,120 @@
+.home-container {
+    padding: 40px 0;
+  }
+  
+  .home-hero {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .home-hero h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 16px;
+  }
+  
+  .home-hero p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .quiz-card {
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .quiz-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  
+  .quiz-meta {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f0f2ff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  
+  .meta-icon {
+    font-size: 1.2rem;
+  }
+  
+  .quiz-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  .start-btn {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+  }
+  
+  .history-btn {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+  }
+  
+  .home-instructions {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .home-instructions h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: var(--text-color);
+  }
+  
+  .instructions-card {
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 30px;
+  }
+  
+  .instructions-card ol {
+    padding-left: 20px;
+  }
+  
+  .instructions-card li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .home-hero h1 {
+      font-size: 2rem;
+    }
+    
+    .quiz-meta {
+      justify-content: center;
+    }
+    
+    .quiz-actions {
+      flex-direction: column;
+    }
+    
+    .instructions-card li {
+      font-size: 0.95rem;
+    }
+  }

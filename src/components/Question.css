@@ -1,0 +1,113 @@
+.question-container {
+    padding: 20px;
+  }
+  
+  .question-text {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    color: var(--text-color);
+  }
+  
+  .options-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    border-radius: var(--border-radius);
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  
+  .option:hover {
+    background-color: #f0f2ff;
+    border-color: var(--primary-color);
+  }
+  
+  .option.selected {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+  }
+  
+  .option-id {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f0f2ff;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  }
+  
+  .option.selected .option-id {
+    background-color: white;
+    color: var(--primary-color);
+  }
+  
+  .option-text {
+    font-size: 1rem;
+  }
+  
+  .integer-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+  }
+  
+  .input-container input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(88, 100, 243, 0.2);
+  }
+  
+  .error-input {
+    border-color: var(--error) !important;
+  }
+  
+  .error-message {
+    color: var(--error);
+    margin-top: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .options-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .question-text {
+      font-size: 1.2rem;
+    }
+  }

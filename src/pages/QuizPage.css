@@ -1,0 +1,40 @@
+.quiz-page {
+    padding: 40px 0;
+  }
+  
+  .quiz-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .quiz-header h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+  
+  .quiz-container {
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .question-wrapper {
+    min-height: 300px;
+  }
+  
+  @media (max-width: 768px) {
+    .quiz-page {
+      padding: 20px 0;
+    }
+    
+    .quiz-header h1 {
+      font-size: 1.6rem;
+    }
+    
+    .quiz-container {
+      padding: 20px 15px;
+    }
+  }
