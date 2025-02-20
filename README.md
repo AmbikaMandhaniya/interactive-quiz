@@ -23,7 +23,7 @@ A modern, interactive quiz application built with React that allows users to tes
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/quizmaster.git
+git clone https://github.com/AmbikaMandhaniya/quizmaster.git
 cd quizmaster
 ```
 
